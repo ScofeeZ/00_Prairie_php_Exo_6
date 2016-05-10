@@ -9,4 +9,9 @@ $langage = array("HTML","CSS","Javascript","PHP");
     foreach ($trierretour as $retour) {
         echo $retour;
     }
+  function fusiontab($redskins) {
+    return implode(" ; ",$redskins);
+  }
+  $retour = fusiontab($langage);
+    echo $retour;
 ?>
